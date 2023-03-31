@@ -1,12 +1,13 @@
 <?php header("content-type: text/css"); ?>
 
-body {
+
+
+<style>
+    body {
 background-color: dimgray;
 background-image: url('images/bg-intro-desktop.png');
 background-repeat: no-repeat;
 }
-
-<style>
  form {
      width: 400px;
      padding: 30px;
