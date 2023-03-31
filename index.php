@@ -15,6 +15,7 @@
             <p>Solicitar teste gratuito <input type="submit" /></p>
 
         </form>
+        
 
     </div>
 
@@ -29,6 +30,3 @@
 
 </html>
 
-function msg() {
-alert("Parabéns, você ganhou um teste gratuito de 7 dias!");
-}
