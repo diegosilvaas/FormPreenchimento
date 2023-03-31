@@ -26,10 +26,12 @@
 
 
 <script>
-    function msg() {
-        alert("Parabéns, você ganhou um teste gratuito de 7 dias!");
-    }
+
 </script>
 
 </body>
 </html>
+
+function msg() {
+alert("Parabéns, você ganhou um teste gratuito de 7 dias!");
+}
