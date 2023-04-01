@@ -4,7 +4,7 @@
        <h1> <p class="text-center"> <br>
          PARABÉNS <br> <?php echo htmlspecialchars($_POST['name']); ?>. <br><br> </h1>
 
-            <p> Você ganhou o teste gratuito de 7 dias! Confirme seu email:  
+            <p class="text-center"> Você ganhou o teste gratuito de 7 dias! Confirme seu email:  
             <b> <?php echo htmlspecialchars($_POST['email']); ?>.<br></b></p>
     </div><strong></p>
 
