@@ -16,16 +16,16 @@
         
         <form action="action.php" method="post">
 
-            <p>Seu nome: <input type="text" name="name" /></p>
-            <p>Seu e-mail: <input type="text" name="email" /></p>
-            <p>Sua senha: <input type="password" name="senha" /></p>
+            <p><input type="text" name="name" placeholder="  Nome Completo "></p>
+            <p><input type="text" name="email" placeholder="  Endereço de email "></p>
+            <p><input type="password" name="senha" placeholder="  Senha "></p>
             <p>Solicitar teste gratuito <input type="submit" /></p>
 
         </form>
 
 
     </div>
-
+    
 
 
 
