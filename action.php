@@ -1,8 +1,21 @@
 <?php include 'includes/head.php'; ?>
-<h1>
+
     <div class="alert alert-danger" role="alert">
-        <p class="text-center"> <br>
-            Oi <?php echo htmlspecialchars($_POST['name']); ?>. <br><br><br>
-            Você ganhou o teste gratuito de 7 dias! Confirme seu email
-            <?php echo htmlspecialchars($_POST['email']); ?>.<br>
+       <h1> <p class="text-center"> <br>
+         PARABÉNS <br> <?php echo htmlspecialchars($_POST['name']); ?>. <br><br> </h1>
+
+            <p> Você ganhou o teste gratuito de 7 dias! Confirme seu email:  
+            <b> <?php echo htmlspecialchars($_POST['email']); ?>.<br></b></p>
     </div><strong></p>
+
+
+
+    <form id="voltar">
+
+    
+    <button type="button" onClick="JavaScript: window.history.back();"
+     class="btn btn-primary btn-lg btn-block">Voltar</button>
+   
+
+    
+</form>
