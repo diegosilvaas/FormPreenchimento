@@ -9,18 +9,21 @@
 
 
     <div class="container text-center">
-        <div class="alert alert-primary" role="alert">
-            Experimente grátis por 7 dias e depois R$ 20/mês
+    <br><div class="alert alert-primary" role="alert">
+    <strong>Experimente grátis por 7 dias e depois R$ 20/mês</strong>
         </div>
 
         <form action="action.php" method="post" id="form">
+       
 
             <font color='white'>
+                
                 <p1>
                     <h1> Aprenda a codificar com a Mentoria </h1>
 
                     <p> Veja como desenvolvedores experientes solucionam problemas
-                        em tempo real. Assistir a tutoriais com scripts é ótimo. mas
+                        em tempo real.<br>
+                        Assistir a tutoriais com scripts é ótimo. mas
                         entender como os desenvolvedores pensam é inestimável.</p>
             </font>
 

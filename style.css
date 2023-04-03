@@ -4,9 +4,15 @@ body {
     background-color: dimgray;
     background-image: url('images/bg-intro-desktop.png');
     background-repeat: no-repeat;
+
     
 }
 
+    form {
+        border: solid;
+        border-width: 1px;
+        border-color: #bdb9b9 ;
+    }
 
 
 

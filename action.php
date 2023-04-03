@@ -1,6 +1,6 @@
 <?php include 'includes/head.php'; ?>
 
-<div class="alert alert-danger" role="alert">
+<br><br><div class="alert alert-danger" role="alert">
    <h1>
       <p class="text-center"> <br>
          PARABÉNS <br> <?php echo htmlspecialchars($_POST['name']); ?>. <br><br>
@@ -38,11 +38,12 @@
         '$email', $telephone, $password)";
          $stmt = $db->prepare($sql);
 
-         if ($stmt->execute()) {
+       
+          if ($stmt->execute()) {
             echo 'Formulario enviado com sucesso';
          } else {
             echo 'Erro ao cadastrar Formulário';
-         }
+         }  
       }
 
 
