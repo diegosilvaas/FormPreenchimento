@@ -40,9 +40,9 @@
 
        
           if ($stmt->execute()) {
-            echo 'Formulario enviado com sucesso';
+             'Formulario enviado com sucesso';
          } else {
-            echo 'Erro ao cadastrar Formulário';
+             'Erro ao cadastrar Formulário';
          }  
       }
 
