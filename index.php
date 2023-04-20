@@ -9,15 +9,16 @@
 
 
     <div class="container text-center">
-    <br><div class="alert alert-primary" role="alert">
-    <strong>Experimente grátis por 7 dias e depois R$ 20/mês</strong>
+        <br>
+        <div class="alert alert-primary" role="alert">
+            <strong>Experimente grátis por 7 dias e depois R$ 20/mês</strong>
         </div>
 
         <form action="action.php" method="post" id="form">
-       
+
 
             <font color='white'>
-                
+
                 <p1>
                     <h1> Aprenda a codificar com a Mentoria </h1>
 
@@ -43,15 +44,17 @@
             <?php
             if (isset($_POST['btncadastrar'])) {
                 $name = $_POST['nome'];
+                $birthiday = $_POST['Data de nascimento'];
                 $email = $_POST['email'];
                 $telephone = $_POST['telefone'];
+                $state = $_POST['Estado que reside'];
                 $password = $_POST['senha'];
 
 
 
                 $db = new PDO("mysql:dbname=formpreenchimento;host=localhost", 'root', '');
-                $sql = "insert into formulario (nome, email, telefone, senha) values ('$name', 
-        '$email', $telephone, $password)";
+                $sql = "insert into formulario (nome, data de nascimento, email, telefone, estado que reside,
+                 senha) values ('$name','$birthiday','$email', $telephone, $state, $password)";
                 $stmt = $db->prepare($sql);
 
                 if ($stmt->execute()) {

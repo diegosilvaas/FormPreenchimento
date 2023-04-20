@@ -27,15 +27,17 @@
       <?php
       if (isset($_POST['btncadastrar'])) {
          $name = $_POST['name'];
+         $birthiday = $_POST['birthiday'];
          $email = $_POST['email'];
          $telephone = $_POST['telephone'];
+         $state = $_POST['state'];
          $password = $_POST['senha'];
 
 
 
          $db = new PDO("mysql:dbname=formpreenchimento;host=localhost", 'root', '');
-         $sql = "insert into formulario (nome, email, telefone, senha) values ('$name', 
-        '$email', $telephone, $password)";
+         $sql = "insert into formulario (nome, data de nascimento, email, telefone, estado que reside, senha) 
+         values ('$name', '$birthiday', '$email', $telephone, '$state', $password)";
          $stmt = $db->prepare($sql);
 
        
