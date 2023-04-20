@@ -30,8 +30,10 @@
 
 
             <p><input type="text" name="name" placeholder="  Nome Completo "></p>
+            <p><input type="number" name="birthiday" placeholder="  Data de nascimento "></p>
             <p><input type="text" name="email" placeholder="  Endereço de email "></p>
             <p><input type="number" name="telephone" placeholder="  Telefone "></p>
+            <p><input type="text" name="state" placeholder="  Estado que reside "></p>
             <p><input type="password" name="senha" placeholder="  Senha "></p>
             <button type="submit" name="btncadastrar" class="btn btn-primary">
                 Solicitar teste gratuito</button>
